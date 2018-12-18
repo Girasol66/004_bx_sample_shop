@@ -211,12 +211,10 @@ img {
 }
 .container {
   overflow: hidden;
-  /*width: 1160px;
-  margin: 0 auto;*/
   border-bottom: 1px solid #fff;
 }
 .footer .container .con-content {
-  width: 960px;
+  width: 970px;
   margin: 0 auto;
 }
 .con-content {
@@ -232,17 +230,24 @@ img {
   float: left;
 }
 .con-content .item {
-  /*width: 250px;*/
-  padding: 0 15px;
+  position: relative;
 }
 .con-content .item.icon {
-  padding-left: 65px;
+  padding: 0 15px 0 65px;
 }
 .item-devider {
   width: 0;
   height: 28px;
-  margin-top: 20px;
+  margin: 18px 16px 18px 0;
   border-left: 1px solid #fff;
+}
+.item i {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 45px;
 }
 .item h1 {
   font-size: 27px;
@@ -436,8 +441,8 @@ img {
   /*width: 960px;*/
   width: 1260px;
   height: 420px;
-  margin:0 auto 30px;
-  border:1px solid #ccc;
+  margin:30px auto;
+  /*border:1px solid #ccc;*/
 }
 .cashier_desk .head{
   height: 120px;
@@ -498,14 +503,15 @@ img {
   width: 160px;
   height: 35px;
   line-height: 35px;
-  background: #009ddc;
+  background: #3675bb;
   font-size: 16px;
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 .pay_btn input:hover{
-  background: #e10000;
+  background: #00973c;
 }
 .pay_ment{
   height: auto;

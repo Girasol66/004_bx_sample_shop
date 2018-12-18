@@ -1,0 +1,12 @@
+.wrap_header {
+  background:#f7f7f7;
+  border:1px solid #c5d3e1;
+  padding: 0 70px;
+}
+.header {
+	height: 100px;
+	width: auto;
+}
+.icon-phone,.icon-msg,.icon-time {
+	color:#c6fafa;
+}
